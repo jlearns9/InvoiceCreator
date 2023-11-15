@@ -1,0 +1,180 @@
+html {
+  background-color: #1C1C1C;
+  box-sizing: border-box;
+}
+
+body {
+  /* background-color: #FFF; */
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  margin: auto;
+  text-align: center;
+  width: 320px;
+  height: 100%;
+}
+
+/*########## HEADER ##########*/
+
+header {
+  background-color: #F5F5F5;
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+}
+
+header h1 {
+  color: #2B283A;
+  font-weight: 800;
+  letter-spacing: -0.8px;
+  margin: .25em auto 0;
+}
+
+header h2 {
+  color: #2B283A;
+  font-size: .8em;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+/*########## MAIN SECION ##########*/
+main {
+  background-color: #FFF;
+  padding: 0 1rem;
+}
+
+main h2 {
+  margin-top: 0;
+}
+
+.invoice-services {
+  padding: 10px;
+  display: flex;
+  overflow-x: auto;
+}
+
+.invoice-services-button {
+  background: #FFF;
+  border-radius: 7px;
+  border: 1px solid #D5D4D8;
+  color: #4A4E74;
+  font-size: .75em;
+  margin: .5em .25em;
+  padding: .5em 1em;
+  white-space: nowrap;
+}
+
+.invoice-custom-services {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  font-size: .75em;
+  width: 288px;
+}
+
+.invoice-custom-service-title {
+  border-radius: 7px 0px 0px 7px;
+  border: 1px solid #D5D4D8;
+  background: #FFF;
+  padding: .5em 1em;
+  width: 100%;
+}
+
+.invoice-custom-service-price {
+  border: 1px solid #D5D4D8;
+  width: 4em;
+}
+
+.invoice-custom-service-button {
+  border-radius: 0px 7px 7px 0px;
+  background: #3770ED;
+  border: none;
+  color: #FFF;
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding: 0 .5em;
+}
+
+.invoice-task-title-container,
+.invoice-summary-heading {
+  display: flex;
+  justify-content: space-between;
+  color: #918E9B;
+  font-size: .45em;
+  margin-top: 1rem;
+}
+
+hr {
+  border-color: #C3C6DB;
+  margin: 1rem 0;
+}
+
+.invoice-summary {
+  color: #4A4E74;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.invoice-task-list {
+  padding: 0;
+}
+
+.invoice-task-items {
+  display: flex;
+  justify-content: space-between;
+  color: #4A4E74;
+  font-size: .7em;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 100% */
+}
+
+.invoice-task-item-price {
+  width: 3em;
+  text-align: left;
+}
+
+.invoice-notes-display {
+  font-size: .75em;
+}
+
+.invoice-total-display {
+  font-size: 1.75em;
+}
+
+.send-invoice-button {
+  border: none;
+  border-radius: 7px;
+  background: #3770ED;
+  color: var(--white, #FFF);
+  font-weight: 500;
+  font-size: .9em;
+  padding: .5em 2em;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+  margin-bottom: 6em;
+  width: 100%;
+}
+
+/*########## MISC ##########*/
+.display-none {
+  display: none;
+}
+
+.gray-background {
+  background: #F5F5F5;
+  border-radius: 7px;
+  border: 1px solid #D5D4D8;
+  color: #4A4E74;
+  font-size: .7em;
+  margin: .5em .25em;
+  padding: .5em 1em;
+  white-space: nowrap;
+}
+
+.fa-solid {
+  margin: auto 0 auto 5px
+}
